@@ -75,17 +75,17 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">MENI</li>
-        <li class="active treeview">
+        <li class="active treeview" ng-click="aktivirajPocetnaStudent()" id="pocetna">
           <a href="#home">
             <i class="fa fa-home"></i> <span>Početna</span>
           </a>
         </li>
-        <li class="treeview">
+        <li class="treeview" ng-click="aktivirajPredmetiStudent()" id="predmeti">
           <a href="#predmetprikazstudent">
             <i class="fa fa-book"></i><span>Predmeti</span>
           </a>
         </li>
-        <li class="treeview">
+        <li class="treeview" ng-click="aktivirajTemeStudent()" id="teme">
           <a href="#/temaprikazstudent">
             <i class="fa fa-header"></i><span>Teme</span>
           </a>

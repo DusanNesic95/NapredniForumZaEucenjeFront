@@ -75,27 +75,27 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">MENI</li>
-        <li class="active treeview">
+        <li class="active treeview" ng-click="aktivirajPocetnaAdmin()" id="pocetna">
           <a href="#homeadmin">
             <i class="fa fa-home"></i> <span>Početna strana</span>
           </a>
         </li>
-        <li class="treeview">
+        <li class="treeview" ng-click="aktivirajKorisniciAdmin()" id="korisnici">
           <a href="#/korisnikprikaz">
             <i class="fa fa-users"></i><span>Korisnici</span>
           </a>
         </li>
-        <li class="treeview">
+        <li class="treeview" ng-click="aktivirajPredmetiAdmin()" id="predmeti">
           <a href="#/predmetprikaz">
             <i class="fa fa-book"></i><span>Predmeti</span>
           </a>
         </li>
-        <li class="treeview">
+        <li class="treeview" ng-click="aktivirajMaterijaliAdmin()" id="materijali">
           <a href="#/materijalprikazadmin">
             <i class="fa fa-files-o"></i><span>Materijali</span>
           </a>
         </li>
-        <li class="treeview">
+        <li class="treeview" ng-click="aktivirajBlokiranjeAdmin()" id="blokiranje">
           <a href="#/blokiranje">
             <i class="fa fa-ban"></i><span>Blokiranje</span>
           </a>

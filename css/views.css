@@ -53,15 +53,42 @@
 	font-size: 20px;
 	color: white;
 }
+.firstAdminRow {
+	margin-top: 100px;
+}
 .tab {
-	margin-top: 200px;
+	margin-top: 50px;
 	text-align: center;
 	background-color: white;
 	height: 200px;
-	width: 30%;
+	width: 30% !important;
 	border-radius: 5px;
 	margin-left: 3%;
 	padding-top: 40px;
+	padding-right: 5px;
+}
+.upperTab {
+	margin-top: 50px;
+}
+.smallTab {
+	width: 15% !important;
+}
+.tabProfesor {
+	margin-top: 50px;
+	text-align: center;
+	background-color: white;
+	height: 200px;
+	width: 46.5% !important;
+	border-radius: 5px;
+	margin-left: 3%;
+	padding-top: 40px;
+	padding-right: 5px;
+}
+.rowStudent {
+	margin-top: 100px !important;
+}
+.tabStudent {
+	margin-top: 50px !important;
 }
 .tab:hover {
 	background-color: rgb(212,210,212);
